@@ -23,6 +23,14 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
+app.post('/register', function(req, res) {
+  res.render('index');
+});
+
+app.post('/login', function(req, res) {
+  res.render('index');
+});
+
 app.listen(PORT, function() {
     console.log("LISTNEING!");
   });
